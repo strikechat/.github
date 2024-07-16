@@ -6,11 +6,16 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thank you for filling this report bug form!
   - type: textarea
     id: what-happened
     attributes:
       label: What happened?
-      description: What should happen?
+      description: Describe what happened.
+  - type: textarea
+    id: what-should-happen
+    attributes:
+      label: What should happend?
+      description: Describe what should happen.
     validations:
       required: true
